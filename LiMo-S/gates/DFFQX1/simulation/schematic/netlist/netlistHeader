@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: May 23 00:47:08 2024
+// Design library name: combCell_7nm
+// Design cell name: flipflop
+// Design view name: schematic
+simulator lang=spectre
+global 0

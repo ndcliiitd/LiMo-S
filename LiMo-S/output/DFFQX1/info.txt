@@ -1,0 +1,38 @@
+[1mLast 5 rows of the data
+[0m     process   voltage temperature          load        slew_d      slew_clk setup_skew hold_skew     ckq_delay
+5875      fs  1.400000       125.0  2.700000e-13  1.000000e-11  1.000000e-11      7e-11  1.45e-10   6.29164e-10
+5876      fs  1.400000       125.0  2.700000e-13  1.000000e-11  1.000000e-11      6e-11  1.55e-10  6.291896e-10
+5877      fs  1.400000       125.0  2.700000e-13  1.000000e-11  1.000000e-11      5e-11  1.65e-10  6.292837e-10
+5878      fs  1.400000       125.0  2.700000e-13  1.000000e-11  1.000000e-11      4e-11  1.75e-10   6.29825e-10
+5879      fs  1.400000       125.0  2.700000e-13  1.000000e-11  1.000000e-11      3e-11  1.85e-10   6.32183e-10
+
+
+[1mInformation about data (number of rows, columns, data types)
+[0m<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5880 entries, 0 to 5879
+Data columns (total 9 columns):
+ #   Column       Non-Null Count  Dtype 
+---  ------       --------------  ----- 
+ 0   process      5880 non-null   object
+ 1   voltage      5880 non-null   object
+ 2   temperature  5880 non-null   object
+ 3   load         5880 non-null   object
+ 4   slew_d       5880 non-null   object
+ 5   slew_clk     5880 non-null   object
+ 6   setup_skew   5880 non-null   object
+ 7   hold_skew    5880 non-null   object
+ 8   ckq_delay    5880 non-null   object
+dtypes: object(9)
+memory usage: 413.6+ KB
+
+[1mInformation about data statistics
+[0m            count unique           top  freq
+process      5880      5            tt  1176
+voltage      5880      2      1.000000  2940
+temperature  5880      2           0.0  2940
+load         5880      4  1.000000e-14  1920
+slew_d       5880      4  1.000000e-11  1560
+slew_clk     5880      4  1.000000e-11  1560
+setup_skew   5880    109         6e-11   320
+hold_skew    5880    139      1.35e-10   130
+ckq_delay    5880   3475             0  2402

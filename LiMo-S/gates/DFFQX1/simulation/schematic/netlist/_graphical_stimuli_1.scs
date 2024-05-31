@@ -1,0 +1,4 @@
+_vVSS (VSS 0) vsource dc=0 type=dc
+_vVDD (VDD 0) vsource dc=VDD type=dc
+_vD (D 0) vsource dc=VDD val0=0.0 val1=VDD period=0.4n delay=1n+skew_d rise=slew_d fall=slew_d width=0.2n type=pulse
+_vCK (CK 0) vsource dc=VDD val0=0.0 val1=VDD period=8n delay=1.050n rise=slew_clk fall=slew_clk width=4n type=pulse

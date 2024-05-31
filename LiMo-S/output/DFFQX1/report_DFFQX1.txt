@@ -1,0 +1,5 @@
+Metrics:
+MSE: 0.0037
+RMSE: 0.0606
+MAE: 0.0332
+R2 Score: 0.7612
